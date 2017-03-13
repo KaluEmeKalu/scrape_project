@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://www.vocabulary.com/lists/1259884 -->
+<html xmlns:vcom="" xmlns:fb="" class=" video objectfit object-fit videoautoplay"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+	<title>Great Expectations Chapters 1-9 - Vocabulary List : Vocabulary.com</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://www.vocabulary.com/lists/1259884">
+     
+	<link rel="search" type="application/opensearchdescription+xml" href="https://www.vocabulary.com/search.xml" title="Vocabulary.com">    
+	<link href="https://cdn.vocab.com/images/ios-icons/114x114-off5pn.png" rel="apple-touch-icon">
+	<link href="https://cdn.vocab.com/images/favicons/favicon-32x32-2frmtt.png" sizes="32x32" rel="icon" type="image/png">
+	<link href="https://cdn.vocab.com/images/favicons/favicon-16x16-uf6i7e.png" sizes="16x16" rel="icon" type="image/png">
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+	<link href="./great_expectations_vocab_files/header-s3n52z.css" rel="stylesheet" type="text/css">
+	<link href="./great_expectations_vocab_files/main-zuspnd.css" rel="stylesheet" type="text/css">
+	<link href="./great_expectations_vocab_files/grids-1440hlx.css" rel="stylesheet" type="text/css">
+	
+	<link href="./great_expectations_vocab_files/progress-zjqx3f.css" rel="stylesheet" type="text/css">
+	<link href="./great_expectations_vocab_files/dictionary-rlnzej.css" rel="stylesheet" type="text/css">
+	<link href="./great_expectations_vocab_files/achievements-goaje8.css" rel="stylesheet" type="text/css">
+	<link href="./great_expectations_vocab_files/leaderboards-1jskpje.css" rel="stylesheet" type="text/css">
+	
+	<link href="./great_expectations_vocab_files/ss-social-circle-1708mdo.css" rel="stylesheet" type="text/css">	
+	<link href="./great_expectations_vocab_files/ss-symbolicons-block-1u3l0c5.css" rel="stylesheet" type="text/css">
+	<link href="./great_expectations_vocab_files/ss-standard-1nx9nw2.css" rel="stylesheet" type="text/css">	
+		
+	<link href="./great_expectations_vocab_files/wordlist2-1vgjs50.css" rel="stylesheet" type="text/css">
+<style>
+	.filterMessage {
+		font-size: 12px;
+		background-color: #F9FDBA;
+		color: #707070;
+		padding: 8px;
+		border-radius: 10px;
+		margin-top: 1em;
+		float: left;
+	}
+</style>
+		
+		
+	
+	<script src="./great_expectations_vocab_files/osd.js"></script><script src="./great_expectations_vocab_files/ads"></script><script async="" type="text/javascript" src="./great_expectations_vocab_files/gpt.js"></script><script>var loginData = {"validUser":false,"auth":{"loggedin":false},"perms":{},"points":0,"level":{"id":"L01","name":"Novice"}};</script>	
+	
+	
+
+<script src="./great_expectations_vocab_files/module-100p0o6.js" type="text/javascript"></script>
+	
+	<script>
+	(function(){
+		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+		ga('create', 'UA-154986-6', 'auto');
+		
+		var deps=['vcom/usermenu', 'vcom/maintabs'  ]
+		try { window.localStorage.setItem('x','1'); window.localStorage.removeItem('x'); } catch (e) {
+			deps.unshift('localstorage');
+		}		
+		Module.after(deps,function(){
+			VCOM.authCache.get().then(function(auth){
+				if (auth.validUser) {
+					ga('set','dimension1',auth.paid?'paid':'free');
+					ga('set','dimension2',auth.ima||'other');
+					var role = (auth.auth && auth.auth.role) ? auth.auth.role.toLowerCase() : "";
+					if (role=='bill' && auth.plan) role = auth.plan;
+					if (role) ga('set','dimension3',role);
+					if (auth.classes && !auth.classes.empty)  ga('set','dimension4','inclass');
+				} else {
+					ga('set','dimension1','anon');					
+				}
+				ga('send', 'pageview');
+			});
+		});
+	})();
+	</script>
+
+		
+	<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+	
+		
+	<script type="text/javascript">
+Module.after(['params','jquery'],function() {
+
+	jQuery(function($) {
+	
+		$('#wlOrder').on('change',function() {
+			if (order[this.value]) {
+				orderBy(order[this.value]);
+			}
+		});
+			
+		$('.page_wordlist .viewSelector a').on('click',function(){
+			changeView($(this).data('view'));
+		});
+	
+		function updateProgress() {
+			$('.page_wordlist ol.wordlist i.progress').remove()
+		$('.page_wordlist.learning li.learnable').each(function(){
+				$('<i class="progress"/>').attr({
+					'data-prg':this.getAttribute('prog'),
+					'title':this.getAttribute('prog')+'% Mastered'				
+				}).appendTo(this);
+		});
+			}
+		$('.page_wordlist').on('updateProgress',updateProgress);
+		
+		
+		window.changeView = changeView;
+		function changeView(view) {	
+			var lastHash = ''+hashParams;
+			if (view=='notes') {
+				delete hashParams.view;	
+			} else {
+				hashParams.view = view;							
+			}
+			$('#view_'+view).addClass('selected').siblings('a').removeClass('selected');
+			if (view=='notes') {
+				$('#wordlist').addClass('notesView').removeClass('listView').trigger('resize');		
+				} else {			
+				$('#wordlist').addClass('listView').removeClass('notesView').trigger('resize');						
+			}
+			if (''+hashParams != lastHash)	setHash();
+		}
+		
+		function orderBy(compare) {
+			$('#wordlist li.entry').sort(compare).appendTo($('#wordlist').scrollTop(0));
+			order.current=compare;
+		}
+		
+		
+		
+		var order = {}
+		order.alpha=function(a,b){
+			a=a.getAttribute('word');
+			b=b.getAttribute('word');
+			var al = normalize(a);
+			var bl = normalize(b);
+			if (al==bl) {
+				return a==b ? 0 : a<b ? -1 : 1; 
+			} else {
+				return al<bl ? -1 : 1; 
+			}		
+		};
+		
+		function normalize(word) {
+			return word.toLowerCase().replace(/[-\/\'\s]+/,'');
+		}
+		
+		order.ralpha=reverse(order.alpha);
+		order.freq=function(a,b){
+			a=parseFloat(a.getAttribute('freq'));
+			b=parseFloat(b.getAttribute('freq'));
+			if (isNaN(a)) {
+				return (isNaN(b)) ? 0 : 1;
+			} else if (isNaN(b)) {
+				return -1;
+			}		
+			return (a==b) ? 0 : (a<b) ? -1 : 1;			
+		};
+		order.rfreq=reverse(order.freq);
+		order.natural=function(a,b) {
+			a=parseInt(a.id.substring(5));
+			b=parseInt(b.id.substring(5));		
+			return (a==b) ? 0 : (a<b) ? -1 : 1;
+		}
+		order.progress=function(a,b) {
+			a=parseFloat(a.getAttribute('prog'));
+			b=parseFloat(b.getAttribute('prog'));
+			if (isNaN(a)) return isNaN(b) ? 0 : 1;
+			if (isNaN(b)) return -1;
+			return (a==b) ? 0 : (a<b) ? 1 : -1;	
+		}
+		
+		order.current = order.natural;
+		
+		function reverse(fn) {
+			return function(a,b) { return -fn(a,b); }
+		}
+		
+		var hashParams = null;	
+		function updateHash() {	
+			hashParams = new modules.params.Params((document.location.hash) ? document.location.hash.substring(0):'');
+			changeView((hashParams.view=='list')?'list':'notes');
+		}
+		
+		function setHash() {
+			var hash = hashParams.toString();
+			console.log('hash',hash+'');
+			if (hash.length || !window.history) {
+				document.location.hash= '#'+hashParams;
+			} else {
+				var loc = document.location.toString(), hm = loc.indexOf('#');
+				window.history.replaceState({},document.title,loc.substring(0,hm));
+			}
+		}
+		
+		$(window).on('hashchange',updateHash);
+		updateHash();
+		updateProgress();		
+	});
+});
+
+</script>
+	
+	<script type="text/javascript">	
+	Module.after(['cookie','timezone'],function() {
+		modules.cookie.Cookie.set('tz', modules.timezone.determine().name(), 3650, '/');
+	});
+	</script>
+	
+<script type="text/javascript" src="./great_expectations_vocab_files/package-1oj87vc.js"></script><script type="text/javascript" src="./great_expectations_vocab_files/package-d2ib17.js"></script><script src="./great_expectations_vocab_files/pubads_impl_111.js" async=""></script><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html"><link type="text/css" rel="stylesheet" href="./great_expectations_vocab_files/voting-nlrb2v.css" media="all"></head>
+<body class="with-top-tab with-tab-lists top-section-lists loggedout with-assignments with-banner-ad"><div class="leaderboard-ad"><div class="adslot" data-collapse="true" data-adunit="Dictionary-Top-Banner" data-responsive="true" data-dimensions="[[320,50],[468,60],[728,90],[970, 90]]" id="top-banner-ad" data-google-query-id="CKmkssyFwdICFU2UvQodl7cASg"><div id="google_ads_iframe_/15665503/Dictionary-Top-Banner_0__container__" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;"><iframe frameborder="0" src="./great_expectations_vocab_files/container.html" id="google_ads_iframe_/15665503/Dictionary-Top-Banner_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" style="border: 0px; vertical-align: bottom;"></iframe></div></div></div>
+<div class="body-wrapper">
+<header class="page-header noselect fixed" role="banner"><div class="limited-width"><nav class="main">
+		<a href="https://www.vocabulary.com/" title="Vocabulary.com" class="logo"><img src="./great_expectations_vocab_files/logo-1wobq9i.png" alt="Vocabulary.com" class="screen-only"><img src="./great_expectations_vocab_files/logo-sar2cf.svg" class="print-only"></a>
+		<div class="logininfo"><a class="login" href="https://www.vocabulary.com/login">Sign In</a><a class="signup" href="https://www.vocabulary.com/signup">Sign Up</a></div><button role="button" aria-pressed="false" aria-label="navigation menu" class="hamburger menu"><span class="rows"></span></button></nav><nav class="tabs"><ul><li title="Play Vocabulary.com" class="playTab" unselectable="on" style="-webkit-user-select: none;"><a href="https://www.vocabulary.com/play/"><span>PLAY</span></a></li><li title="Look up a word" class="dictTab empty"><a href="https://www.vocabulary.com/dictionary/"><span>LOOK UP</span></a><div class="wrapper"><input id="search" type="text" autofocus="" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off"><i role="button" class="ss-delete"></i></div></li><li title="Find a Vocabulary List" class="listsTab selected" unselectable="on" style="-webkit-user-select: none;"><a href="https://www.vocabulary.com/lists/"><span>LISTS</span></a></li></ul></nav></div></header>
+<div class="fixed-tray"></div>
+
+
+<div id="page" class="page">
+<div id="pageContent" class="pageContent clearfloat">
+<div class="page_wordlist view-words">
+	<div class="header with-header-margin">		
+
+		<div class="limited-width">
+		<div class="grid grid-3 responsive">
+
+		<div class="col span-2 leftpane">
+		<div class="breadcrumb">
+			<a class="level0" href="https://www.vocabulary.com/lists/">VOCABULARY LISTS</a>
+			
+		</div>
+		<div class="titleblock">
+			<h1 class="dynamictext">Great Expectations Chapters 1-9</h1>
+			<div class="byline">
+			<span class="date">October 2, 2016
+			
+			</span>		
+			
+			<span class="author"><span class="profileLink">By <a href="https://www.vocabulary.com/profiles/A1HTT6L3GU8N43" target="_top">Ms. Bogard</a><span class="location"> (OH)</span><span class="badges"><a href="https://www.vocabulary.com/profiles/#wordlisters" target="_top" title="Top 10 Word lister" class="badge wordlister"><img src="./great_expectations_vocab_files/tw-badge-sm-1ir2gsy.gif" alt="Top 10 Word Lister" class="badge"></a></span></span></span>
+				
+			</div>
+			
+			
+			<div class="description v-overflow">25 vocabulary words from Chapters 1-9 of Great Expectations.<div role="button" class="readmore">Read more...</div></div>
+				
+			
+			
+		</div>
+		<script>
+		Module.after(['jquery'],function() {
+			jQuery(function($){
+				var $desc = $('.titleblock .description').addClass('v-overflow');
+				$desc.find('.readmore').one('click',function(){
+					$desc.toggleClass('open');
+					$(window).off('resize orientationchange',reclamp);
+				});
+				function reclamp() {		
+					$desc.toggleClass('v-overflowed',$desc.length && $desc[0].scrollHeight > $desc.height());		
+				}
+				$(window).on('resize orientationchange',reclamp);
+				reclamp();	
+			});
+		});
+		</script>
+		
+		
+			<div class="rating">
+				<label>Rate this list:</label>
+				<vcom:votes objid="1259884" objtype="wl" cansave="true" objtypename="Vocabulary List" class="vcom_votes"><span class="stars rw" title="454.5 stars (18 votes)"><i class="star on"></i><i class="star on"></i><i class="star on"></i><i class="star on"></i><i class="star on"></i><span class="displaytext">454.5 (18 votes)</span></span></vcom:votes>
+			</div>
+		
+		
+		<section class="activities screen-only"> 			
+	<div class="clearfloat limited-width">
+	<h3>Activities for this list:</h3>
+	<ul>
+		
+		<li class="practice">
+			<a href="https://www.vocabulary.com/lists/1259884/practice" class="card clearfloat">
+			
+			<h4><i></i>Practice</h4>
+			<blockquote>
+			Answer a few questions on each word on this list. <span class="hide-mobile">Get one wrong? We'll ask some follow-up questions.</span>
+			Use it to prep for your next quiz!
+									
+			</blockquote>
+			<div class="actions">
+				
+					
+					
+					<button>Start Practice Session</button>
+				
+				
+			</div>
+			</a>
+		</li>
+		
+		<li class="spellingbee">
+			<a href="https://www.vocabulary.com/lists/1259884/bee" class="card clearfloat">
+			
+			<h4><i></i>Spelling Bee</h4>
+			<blockquote>
+			Test your spelling acumen.  See the definition, listen to the word, then try to spell it correctly. 
+			<span class="hide-mobile">Beat your last streak, or best your overall time.  Spellers of the world, untie!</span>
+			</blockquote>
+			<div class="actions">
+				<button>Start Spelling Bee</button>
+			</div>
+			</a>
+		</li>
+	</ul>
+				
+	<script>
+	Module.after(['jquery'],function() {
+		jQuery(function($){
+			$('.page_wordlist').on('click','*[data-action="restart-practice"]',function(e){
+				if (confirm('Are you sure you would like to restart your practice session?')) {
+					document.location.href='/lists/1259884/reset';						
+				}
+				e.preventDefault();
+				e.stopPropagation();
+				return false;		
+			});		
+		});
+	});
+</script>	
+</div>		
+</section>
+	
+		
+		</div>
+		
+		<div class="col rightpane">
+			
+			<div class="item listprogress" style="display: block;"><a href="javascript:void(0);" class="learnthislist" title="Add all the words on this list to your learning program.">Add to Learning Program</a><div class="status" style="display: none;"></div></div>
+			<div class="item tools" data-wordlist-id="1259884" data-learning="false" data-learnable="25" data-unlearnable="0" data-progress="0" data-bookmarked="false">				
+			                 
+				<a class="button" href="https://www.vocabulary.com/lists/1259884/assign"><i class="ss-attach icon"></i> Assign this list</a>	
+				<vcom:share itemtype="list" label="Share this list..." class="vcom_share"><a class="button share" title="Share this list" href="javascript:void(0)"><i class="ss-link icon"></i> <span>Share this list...</span></a></vcom:share>
+				<a class="button print" href="javascript:void(0);" data-action="print"><i class="ss-fax icon"></i> Print this list</a>
+				
+			   	                    
+				<a class="button" href="javascript:void(0);" data-action="copy" style="-webkit-user-select: none;"><i class="ss-fill icon"></i> Copy this list to...</a>			
+				<a class="button" href="https://www.vocabulary.com/lists/new"><i class="ss-compose icon"></i> Start a new list</a>									
+			</div>
+						
+			<script>Module.after('vcom/listtools');</script>
+		</div>	
+		</div>				
+	</div>
+	
+</div>	
+	<div class="tabbar clearfloat">
+	<div class="tabcontainer limited-width">
+	
+	
+	<a class="selected" href="https://www.vocabulary.com/lists/1259884">25&nbsp;Words</a>
+
+	
+	
+	
+	<a class="ss-attach assign" href="https://www.vocabulary.com/lists/1259884/assign">Assignments</a>
+	
+
+	
+	
+	
+	</div>
+</div>	
+		
+	
+	<div class="content-wrapper"><div class="centeredContent">
+	
+	<div class="viewSelector">
+		<label>show:</label>
+		<a data-view="notes" href="https://www.vocabulary.com/lists/1259884#view=notes" id="view_notes" class="selected">definitions &amp; notes</a>
+		<a data-view="list" href="https://www.vocabulary.com/lists/1259884#view=list" id="view_list">only words</a>			
+		
+		<select id="wlOrder">
+		<option value="natural">in list order</option>
+		<option value="alpha">from A to Z</option>
+		<option value="ralpha">from Z to A</option>
+		<option value="freq">from easy to hard</option>
+		<option value="rfreq">from hard to easy</option>
+		
+	</select>
+		
+	</div>
+	
+	
+	<ol class="wordlist notesView" id="wordlist">	
+
+
+
+
+
+<li class="entry learnable" id="entry0" lang="en" word="flighty" freq="5834.82" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/flighty">flighty</a>	
+<div class="definition">guided by whim and fancy</div>
+<div class="example">"My opinion is, it's a sedan-chair. She's 
+<strong>flighty</strong>, you know,—very 
+<strong>flighty</strong>,—quite 
+<strong>flighty</strong> enough to pass her days in a sedan-chair."</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry1" lang="en" word="disputatious" freq="26383.39" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/disputatious">disputatious</a>	
+<div class="definition">showing an inclination to disagree</div>
+<div class="example">I think it will be conceded by my most 
+<strong>disputatious</strong> reader, that she could hardly have directed an unfortunate boy to do anything in the wide world more difficult to be done under the circumstances.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry2" lang="en" word="vicariously" freq="18018.24" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/vicariously">vicariously</a>	
+<div class="definition">indirectly, as, by, or through a substitute</div>
+<div class="example">My sister, having so much to do, was going to church 
+<strong>vicariously</strong>, that is to say, Joe and I were going.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry3" lang="en" word="contumacious" freq="16462.44" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/contumacious">contumacious</a>	
+<div class="definition">willfully obstinate; stubbornly disobedient</div>
+<div class="example">"Trouble?" echoed my sister; "trouble?" and then entered on a fearful catalogue of all the illnesses I had been guilty of, and all the acts of sleeplessness I had committed, and all the high places I had tumbled from, and all the low places I had tumbled into, and all the injuries I had done myself, and all the times she had wished me in my grave, and I had contumaciously refused to go there.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry4" lang="en" word="rumination" freq="14556.8" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/rumination">rumination</a>	
+<div class="definition">a calm, lengthy, intent consideration</div>
+<div class="example">"There's one thing you may be sure of, Pip," said Joe, after some 
+<strong>rumination</strong>, "namely, that lies is lies. Howsever they come, they didn't ought to come, and they come from the father of lies, and work round to the same. Don't you tell no more of 'em, Pip. That ain't the way to get out of being common, old chap. And as to being common, I don't make it out at all clear. You are oncommon in some things. You're oncommon small. Likewise you're a oncommon scholar."</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry5" lang="en" word="expectorate" freq="11453.82" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/expectorate">expectorate</a>	
+<div class="definition">clear out the chest and lungs</div>
+<div class="example">Instantly afterwards, the company were seized with unspeakable consternation, owing to his springing to his feet, turning round several times in an appalling spasmodic whooping-cough dance, and rushing out at the door; he then became visible through the window, violently plunging and 
+<strong>expectorating</strong>, making the most hideous faces, and apparently out of his mind.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry6" lang="en" word="perspicuity" freq="11246.78" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/perspicuity">perspicuity</a>	
+<div class="definition">clarity as a consequence of being easily understandable</div>
+<div class="example">Joe recited this couplet with such manifest pride and careful 
+<strong>perspicuity</strong>, that I asked him if he had made it himself.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry7" lang="en" word="cask" freq="935.55" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/cask">cask</a>	
+<div class="definition">a cylindrical container that holds liquids</div>
+<div class="example">On the edge of the river I could faintly make out the only two black things in all the prospect that seemed to be standing upright; one of these was the beacon by which the sailors steered,—like an unhooped 
+<strong>cask</strong> upon a pole,—an ugly thing when you were near it; the other, a gibbet, with some chains hanging to it which had once held a pirate.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry8" lang="en" word="exonerated" freq="10442.09" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/exonerated">exonerated</a>	
+<div class="definition">freed from any question of guilt</div>
+<div class="example">My state of mind regarding the pilfering from which I had been so unexpectedly 
+<strong>exonerated</strong> did not impel me to frank disclosure; but I hope it had some dregs of good at the bottom of it.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry9" lang="en" word="reproachful" freq="1252.91" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/reproachful">reproachful</a>	
+<div class="definition">expressing reproof especially as a corrective</div>
+<div class="example">Joe gave a 
+<strong>reproachful</strong> cough, as much as to say, "Well, I told you so."</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry10" lang="en" word="obligated" freq="9571.29" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/obligated">obligated</a>	
+<div class="definition">caused by law or conscience to follow a certain course</div>
+<div class="example">...without us. So, he'd come with a most tremenjous crowd and make such a row at the doors of the houses where we was, that they used to be 
+<strong>obligated</strong> to have no more to do with us and to give us up to him. And then he took us home and hammered us. Which, you see, Pip," said...</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry11" lang="en" word="conciliatory" freq="2336.83" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/conciliatory">conciliatory</a>	
+<div class="definition">making or willing to make concessions</div>
+<div class="example">Joe, who had ventured into the kitchen after me as the dustpan had retired before us, drew the back of his hand across his nose with a 
+<strong>conciliatory</strong> air, when Mrs. Joe darted a look at him, and, when her eyes were withdrawn, secretly crossed his two forefingers, and exhibited them to me, as our token that Mrs. Joe was in a cross temper.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry12" lang="en" word="divulge" freq="2227.28" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/divulge">divulge</a>	
+<div class="definition">make known to the public information previously kept secret</div>
+<div class="example">Under the weight of my wicked secret, I pondered whether the Church would be powerful enough to shield me from the vengeance of the terrible young man, if I 
+<strong>divulged</strong> to that establishment.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry13" lang="en" word="gluttony" freq="5814.73" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/gluttony">gluttony</a>	
+<div class="definition">habitual eating to excess</div>
+<div class="example">"Swine," pursued Mr. Wopsle, in his deepest voice, and pointing his fork at my blushes, as if he were mentioning my Christian name,—"swine were the companions of the prodigal. The 
+<strong>gluttony</strong> of Swine is put before us, as an example to the young."</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry14" lang="en" word="trenchant" freq="5400.41" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/trenchant">trenchant</a>	
+<div class="definition">having keenness and forcefulness and penetration in thought</div>
+<div class="example">My sister had a 
+<strong>trenchant</strong> way of cutting our bread and butter for us, that never varied.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry15" lang="en" word="ignominiously" freq="5047.67" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/ignominiously">ignominiously</a>	
+<div class="definition">in a dishonorable manner or to a dishonorable degree</div>
+<div class="example">And I soon found myself getting heavily bumped from behind in the nape of the neck and the small of the back, and having my face 
+<strong>ignominiously</strong> shoved against the kitchen wall, because I did not answer those questions at sufficient length.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry16" lang="en" word="goad" freq="1610.82" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/goad">goad</a>	
+<div class="definition">stab or urge on as if with a pointed stick</div>
+<div class="example">I might have been an unfortunate little bull in a Spanish arena, I got so smartingly touched up by these moral 
+<strong>goads</strong>.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry17" lang="en" word="genteel" freq="1497.3" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/genteel">genteel</a>	
+<div class="definition">marked by refinement in taste and manners</div>
+<div class="example">I wished Joe had been rather more genteelly brought up, and then I should have been so too.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry18" lang="en" word="imp" freq="794.46" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/imp">imp</a>	
+<div class="definition">one who is playfully mischievous</div>
+<div class="example">Would he believe that I was both 
+<strong>imp</strong> and hound in treacherous earnest, and had betrayed him?</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry19" lang="en" word="imperiously" freq="4085.07" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/imperiously">imperiously</a>	
+<div class="definition">in a manner showing arrogant superiority</div>
+<div class="example">But, Uncle Pumblechook, who was omnipotent in that kitchen, wouldn't hear the word, wouldn't hear of the subject, 
+<strong>imperiously</strong> waved it all away with his hand, and asked for hot gin and water.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry20" lang="en" word="disdainfully" freq="4022.54" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/disdainfully">disdainfully</a>	
+<div class="definition">without respect</div>
+<div class="example">"Tried to murder him?" said my convict, 
+<strong>disdainfully</strong>.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry21" lang="en" word="obstinacy" freq="1167.88" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/obstinacy">obstinacy</a>	
+<div class="definition">resolute adherence to your own ideas or desires</div>
+<div class="example">Whitewash on the forehead hardens the brain into a state of 
+<strong>obstinacy</strong> perhaps.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry22" lang="en" word="reticence" freq="2377.7" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/reticence">reticence</a>	
+<div class="definition">the trait of being uncommunicative</div>
+<div class="example">And the mere sight of the torment, with his fishy eyes and mouth open, his sandy hair inquisitively on end, and his waistcoat heaving with windy arithmetic, made me vicious in my 
+<strong>reticence</strong>.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry23" lang="en" word="retort" freq="292.37" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/retort">retort</a>	
+<div class="definition">a quick reply to a question or remark</div>
+<div class="example">Every Christmas Day, he 
+<strong>retorted</strong>, as he now 
+<strong>retorted</strong>, "It's no more than your merits. And now are you all bobbish, and how's Sixpennorth of halfpence?" meaning me.</div>
+
+
+</li>
+
+
+
+
+
+
+<li class="entry learnable" id="entry24" lang="en" word="consternation" freq="824.53" prog="0">
+ 
+<a class="word dynamictext" href="https://www.vocabulary.com/dictionary/consternation">consternation</a>	
+<div class="definition">fear resulting from the awareness of danger</div>
+<div class="example">The wonder and 
+<strong>consternation</strong> with which Joe stopped on the threshold of his bite and stared at me, were too evident to escape my sister's observation.</div>
+
+
+</li>
+
+
+	</ol>	
+	</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<section class="signup-tout center clearfloat sectionbg">
+<div class="limited-width ">
+	<h2>Sign up, it's free!</h2>
+	<div class="margin2 margin2r col8">
+		<p>
+		Whether you're a student, an educator, or a life-long learner, Vocabulary.com can put you
+		on the path to systematic vocabulary improvement. <br>
+		</p>
+		
+		<a role="button" class="signup button green" href="https://www.vocabulary.com/signup/">Get Started</a>
+		
+	</div>
+</div>
+</section>
+
+
+<footer class="page-footer">
+<nav class="sitelinks limited-width hide-mobile clearfloat screen-only">
+	<div class="col2 ">
+			<h3>For Everyone</h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/play/">Play the Challenge</a></li>
+			<li><a href="https://www.vocabulary.com/lists/">Vocabulary Lists</a></li>
+			<li><a href="https://www.vocabulary.com/dictionary/">Dictionary</a></li>				
+			<li><a href="https://www.vocabulary.com/articles/chooseyourwords/">Choose Your Words</a></li>			
+			</ul>				
+		</div>
+			
+		<div class="col2 ">
+			<h3><a href="https://www.vocabulary.com/educator-edition/">For Educators</a></h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/educator-edition/">Educator Edition</a></li>		
+			<li><a href="https://www.vocabulary.com/educator-edition/pricing/">Plans &amp; Pricing</a></li>
+			<li><a href="https://www.vocabulary.com/educator-edition/sales/">Contact Sales</a></li>
+			<li><a href="https://www.vocabulary.com/articles/success-stories/">Success Stories</a></li>
+			</ul>				
+		</div>
+		
+		<div class="col2 ">
+			<h3><a href="https://www.vocabulary.com/help/">Help</a></h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/help/">Help Articles / FAQ</a></li>			
+			<!--  <li><a href="/help/videos/">How-to Videos</a></li>-->
+			<li><a href="https://www.vocabulary.com/help/webinars">Training &amp; Webinars</a></li>	
+			<li><a href="https://www.vocabulary.com/help/contactus">Contact Support</a></li>
+			<li><a>&nbsp;</a></li>	
+			</ul>				
+		</div>
+					
+		<div class="col2 ">
+			<h3><a href="https://www.vocabulary.com/leaderboards/">Leaderboards</a></h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/bowl/">Vocabulary Bowl</a></li>	
+			<li><a href="https://www.vocabulary.com/leaderboards/bowl/">Bowl Leaders</a></li>					
+			<li><a href="https://www.vocabulary.com/leaderboards/today/">Today's Leaders</a></li>
+			<li><a href="https://www.vocabulary.com/leaderboards/thisweek/">Weekly Leaders</a></li>
+			<li><a href="https://www.vocabulary.com/leaderboards/thismonth/">Monthly Leaders</a></li>						
+			</ul>						
+		</div>	
+				
+		<div class="col2 ">
+			<h3><a href="https://www.vocabulary.com/blog/">Connect</a></h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/blog/">Vocabulary.com Blog</a></li>
+			<li><a href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul>				
+		</div>
+		
+		<div class="col2 ">
+			<h3><a href="https://www.vocabulary.com/about/">Our Story</a></h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/about/">Our Mission</a></li>
+			<li><a href="https://www.vocabulary.com/about/team/">Team / Jobs</a></li>
+			<li><a href="https://www.vocabulary.com/about/news/">News &amp; Events</a></li>				
+			<li><a href="https://www.vocabulary.com/about/partnerships/">Partnerships</a></li>	
+			</ul>				
+		</div>
+
+</nav>
+<nav class="legal limited-width clearfloat">
+		<a href="https://www.vocabulary.com/terms/">© Vocabulary.com</a>
+		<a href="https://www.vocabulary.com/terms/" class="screen-only">Terms of Use</a>
+		<a href="https://www.vocabulary.com/privacy/" class="screen-only">Privacy Policy</a>
+</nav></footer>
+
+<nav class="sitemap screen-only">
+<div class="scrollable">
+<div>
+	<div class="limited-width mobile-5050 pad2y">
+	
+	<div class="col9">
+		<div class="col4 pad1x">
+			<h3>For Everyone</h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/play/">Play the Challenge</a></li>
+			<li><a href="https://www.vocabulary.com/lists/">Vocabulary Lists</a></li>
+			<li><a href="https://www.vocabulary.com/dictionary/">Dictionary</a></li>				
+			<li><a href="https://www.vocabulary.com/articles/chooseyourwords/">Choose Your Words</a></li>			
+			</ul>				
+		</div>
+			
+		<div class="col4 pad1x">
+			<h3><a href="https://www.vocabulary.com/educator-edition/">For Educators</a></h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/educator-edition/">Educator Edition</a></li>		
+			<li><a href="https://www.vocabulary.com/educator-edition/pricing/">Plans &amp; Pricing</a></li>
+			<li><a href="https://www.vocabulary.com/educator-edition/sales/">Contact Sales</a></li>
+			<li><a href="https://www.vocabulary.com/articles/success-stories/">Success Stories</a></li> 
+			</ul>				
+		</div>
+		
+		<div class="col4 pad1x">
+			<h3><a href="https://www.vocabulary.com/help/">Help</a></h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/help/">Help Articles / FAQ</a></li>			
+			<!--<li><a href="/help/videos/">How-to Videos</a></li>-->
+			<li><a href="https://www.vocabulary.com/help/webinars">Training &amp; Webinars</a></li>	
+			<li><a href="https://www.vocabulary.com/help/contactus">Contact Support</a></li>	
+			<li><a>&nbsp;</a></li>	
+			</ul>				
+		</div>
+					
+		<div class="col4 pad1x">
+			<h3><a href="https://www.vocabulary.com/leaderboards/">Leaderboards</a></h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/bowl/">Vocabulary Bowl</a></li>	
+			<li><a href="https://www.vocabulary.com/leaderboards/bowl/">Bowl Leaders</a></li>		
+			<li><a href="https://www.vocabulary.com/leaderboards/today/">Today's Leaders</a></li>
+			<li><a href="https://www.vocabulary.com/leaderboards/thisweek/">Weekly Leaders</a></li>
+			<li><a href="https://www.vocabulary.com/leaderboards/thismonth/">Monthly Leaders</a></li>						
+			</ul>						
+		</div>	
+		
+		
+
+		<div class="col4 pad1x">
+			<h3><a href="https://www.vocabulary.com/blog/">Connect</a></h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/blog/">Vocabulary.com Blog</a></li>
+			<li><a href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul>				
+		</div>
+		
+		<div class="col4 pad1x">
+			<h3><a href="https://www.vocabulary.com/about/">Our Story</a></h3>
+			<ul>
+			<li><a href="https://www.vocabulary.com/about/">Our Mission</a></li>
+			<li><a href="https://www.vocabulary.com/about/team/">Team / Jobs</a></li>
+			<li><a href="https://www.vocabulary.com/about/news/">News &amp; Events</a></li>				
+			<li><a href="https://www.vocabulary.com/about/partnerships/">Partnerships</a></li>	
+			</ul>				
+		</div>
+	</div>
+	<div class="col3 pad1x">
+		<h3><a href="https://www.vocabulary.com/account/">My Account</a></h3>
+		<div class="loggedout-only clearfloat signinoptions">
+			<a role="button" class="google button" href="https://www.vocabulary.com/login/google">Sign in with Google</a>			
+			<a role="button" class="facebook button" href="https://www.vocabulary.com/login/facebook">Sign in with Facebook</a>	
+			<p>or, <a href="https://www.vocabulary.com/login/">sign in with email.</a></p>
+			<p>Don't have an account yet?<br>
+			   <a href="https://www.vocabulary.com/signup">Sign up. It's free and takes five seconds.</a>
+			</p>							
+		</div>
+		<ul class="loggedin-only">
+			<li><a href="https://www.vocabulary.com/auth/logout"><i class="ss-logout"></i>Log Out</a></li>
+			<li class="nav-assignments with-assignments-only"><a href="https://www.vocabulary.com/account/assignments"><i class="ss-attach"></i>My Assignments</a></li>
+			<li><a href="https://www.vocabulary.com/progress/"><i class="ss-barchart"></i>My Progress</a>
+				<ul>
+					<li><a href="https://www.vocabulary.com/account/progress/words/learning"><i class="ss-hiker ss-symbolicons-block"></i>Words I'm Learning</a></li>
+					<li><a href="https://www.vocabulary.com/account/progress/words/trouble"><i class="ss-bullseye ss-symbolicons-block"></i>My Trouble Words</a></li>
+					<li><a href="https://www.vocabulary.com/account/progress/words/mastered"><i class="ss-check ss-symbolicons-block"></i>Words I've Mastered</a></li>
+					<li><a href="https://www.vocabulary.com/account/progress/achievements"><i class="ss-award ss-symbolicons-block"></i>My Achievements</a></li>
+				</ul>
+			</li>	
+			<li><a href="https://www.vocabulary.com/account/lists/"><i class="ss-list"></i>My Lists</a>
+			<ul>
+				<li><a href="https://www.vocabulary.com/lists/"><i class="ss-search"></i>Find a List to Learn...</a></li>
+				<li><a href="https://www.vocabulary.com/lists/new"><i class="ss-hospital ss-symbolicons-block"></i>Create a New List...</a></li>
+			</ul>
+			</li>
+			
+			<li class="nav-classes perms-create-class-only"><a href="https://www.vocabulary.com/account/classes"><i class="ss-users"></i>My Classes</a></li>
+						
+			<li class="perms-school-reports-only"><a href="https://www.vocabulary.com/account/schools"><i class="ss-school ss-symbolicons-block"></i>Schools &amp; Teachers</a></li>
+			
+			<li class="perms-user-admin-only"><a href="https://www.vocabulary.com/account/users"><i class="ss-usergroup ss-symbolicons-block "></i>User Administration</a></li>
+			<li class="perms-auth-admin-only"><a href="https://www.vocabulary.com/account/authentication"><i class="ss-key"></i>User Authentication</a></li>
+			<li>
+				<a href="https://www.vocabulary.com/account/"><i class="ss-settings"></i>My Account</a>			
+			</li>
+		</ul>
+	</div>
+	</div>		
+	<div class="copyright pad2y">				
+		<div class="limited-width">
+		<span>© Vocabulary.com</span>			
+		<div class="terms">
+		<a href="https://www.vocabulary.com/terms/">Terms of Use</a>
+		<a href="https://www.vocabulary.com/privacy/">Privacy Policy</a>
+		</div>
+		</div>
+	</div>	
+</div></div>
+<div class="nub"></div>				
+</nav>
+</div>
+
+
+
+<iframe id="google_osd_static_frame_3145078170467" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./great_expectations_vocab_files/saved_resource.html"></iframe></body></html>
