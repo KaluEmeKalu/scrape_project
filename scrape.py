@@ -135,15 +135,9 @@ class MakeVocabClass(object):
 
         return self.make_vocab_dict(self.get_file_text())
 
-a = MakeVocabClass()
-my_dict = a.get_dict()
-print(my_dict)
+if __name__ == "__main__":
+    a = MakeVocabClass()
+    my_dict = a.get_dict()
+    print(my_dict)
 
 
-found_word_dict = {}
-
-text2 = "I want to defend every person until the age of twenty four if it isn't too demanding."
-
-for word in my_dict:
-    if word in text2:
-        found_word_dict[word] = my_dict[word]
